@@ -40,24 +40,30 @@ Filter and create a new DataFrame to retrieve all the rows where the number of h
 
 ### *Analysis*
 1. How many Vine reviews and non-Vine reviews were there?
-From the tables below, there were 497 paid Vine reviews versus 120,863 unpaid or non-Vine reviews. 
+
+From the tables below, there were 497 paid Vine reviews () versus 120,863 unpaid or non-Vine reviews. 
 
 ![paid](https://user-images.githubusercontent.com/68654746/192009661-b4903970-f2cf-41e9-bca9-f8892bce0eed.jpg)
 ![unpaid](https://user-images.githubusercontent.com/68654746/192009705-4c6d0b90-4a1d-4e2e-9c3c-2dc653ba003a.jpg)
 
 2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+
 From the findings shown below, there were 220 paid Vine reviews versus 74,470 unpaid non-Vine reviews that were 5 stars. 
 
 ![percentage](https://user-images.githubusercontent.com/68654746/192013367-29a14ff9-8d16-4e74-a060-bf2fc268f542.jpg)
 
 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
 Percent of 5-Star reviews for paid Vine program was: 44.265594%
-Percentage of 5-star reviews for unpaid Vine program was: 61.615217%
+
+Percent of 5-star reviews for unpaid Vine program was: 61.615217%
 
 ## Summary
 
 1. Is there is any positivity bias for reviews in the Vine program. 
-Based on the results, Vine members did not show bias when rating their products considering that the number of 5-star ratings was about 15% less than Non-Vine members (44% vs. 61.6%). With this, we can assume that Vine customers are more critical when submitting their review.
+
+Based on the results, Vine members did not show a bias when rating their products using the Vine program. The number of 5-star ratings for Vine members was about 17% less than Non-Vine members (44.3% vs. 61.6%). With this finding, we can assume that Vine customers are more critical when submitting their review for products in the Health Personal Care category.
 
 2. Provide one additional analysis that you could do with the dataset to support your statement.
-In addition, running the same analysis using datasets from different product categories can provide us with the whole picture of whether reviews made by Vine members are bias.
+
+Another analysis to support my conclusion above, I would include all of the data provided in the dataset rather than filtering it down to a percentage of helpful votes. If we came to the same or close conclusion when utilizing all of the data, it would further support our predictions.
